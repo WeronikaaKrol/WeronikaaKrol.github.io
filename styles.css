@@ -202,9 +202,12 @@ h2 {
   font-size: 1rem;
 }
 
-.hero-text,
-.hero-note p {
+.hero-text {
   color: rgba(244, 239, 232, 0.78);
+}
+
+.hero-note p {
+  color: rgba(255, 248, 240, 0.94);
 }
 
 .hero-note,
@@ -215,8 +218,9 @@ h2 {
 
 .hero-note {
   padding: 1.1rem 1.2rem;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.16);
 }
 
 .hero-note-title,
