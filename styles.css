@@ -217,12 +217,15 @@ h2 {
 }
 
 .hero-note p {
-  color: rgba(255, 248, 240, 0.94);
+  color: var(--ink);
 }
 
-.hero-text strong,
-.hero-note strong {
+.hero-text strong {
   color: #fff9f3;
+}
+
+.hero-note strong {
+  color: var(--ink-deep);
 }
 
 .timeline-card li strong,
