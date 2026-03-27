@@ -577,7 +577,8 @@ h2 {
 }
 
 .vision-panel > p {
-  max-width: 76ch;
+  max-width: 100%;
+  width: 100%;
 }
 
 .vision-grid {
@@ -768,6 +769,7 @@ h2 {
 .contact-copy {
   display: grid;
   gap: 0.75rem;
+  margin-top: 1rem;
 }
 
 .contact-links {
